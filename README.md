@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![active-states](https://github.com/user-attachments/assets/29fb5c00-05bd-400b-b826-94c4dc8a8ecc)
 
 
 ### Links
