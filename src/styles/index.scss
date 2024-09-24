@@ -1,0 +1,23 @@
+@use 'form';
+@use 'values';
+@use 'results';
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: values.$paragraph;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: values.$Slate-100;
+  font-weight: 500;
+}

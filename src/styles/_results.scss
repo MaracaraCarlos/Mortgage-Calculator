@@ -1,0 +1,40 @@
+@use 'values';
+.results_container {
+  height: 100%;
+  h3 {
+    color: values.$White;
+    font-size: 1.5rem;
+    font-weight: values.$max-weight;
+    padding-bottom: 15px;
+  }
+  .results_paragraph {
+    color: values.$Slate-700;
+    padding-bottom: 25px;
+  }
+  .number_section {
+    background-color: #091820;
+    padding: 25px;
+    border-radius: 10px;
+    border-top: 4px solid values.$Lime;
+    .monthly_number {
+      padding-bottom: 25px;
+      border-bottom: 1px solid values.$Slate-700;
+      p {
+        color: values.$Slate-700;
+        padding-bottom: 15px;
+      }
+      h1 {
+        color: values.$Lime;
+        font-weight: values.$max-weight;
+        font-size: 3rem;
+      }
+    }
+    .total_number {
+      padding-top: 25px;
+      p {
+        color: values.$Slate-700;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
